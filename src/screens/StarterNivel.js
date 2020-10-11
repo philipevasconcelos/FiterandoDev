@@ -18,7 +18,7 @@ const HeaderText = styled.Text`
 `;
 const NextButton = styled.Button``;
 const LevelArea = styled.View`
-    width:100%;
+    width:90%;
 `;
 const BoldText = styled.Text`
     font-weight:bold;
@@ -46,7 +46,7 @@ const Page = (props) => {
             funnyPhrase = 'É, 6 dias não é pra todo mundo...';
             break;
         case 7:
-            funnyPhrase = 'Wooow! Todo dia?! WTF?!';
+            funnyPhrase = 'Wooow! vamos com tudo...';
             break;
     }
 
@@ -61,14 +61,14 @@ const Page = (props) => {
             <HeaderText><BoldText>Qual seu nível hoje?</BoldText></HeaderText>
 
             <LevelArea>
-                <DefaultButton bgcolor={props.level == 'beginner' ? '#A5E8BC' : false} onPress={() => setMyLevel('beginner')} style={{ marginBottom: 20 }} underlayColor="#CCC">
-                    <Text>Iniciante / Um frango</Text>
+                <DefaultButton bgcolor={props.level == 'beginner' ? '#FFA500' : false} onPress={() => setMyLevel('beginner')} style={{ marginBottom: 20 }} underlayColor="#CCC">
+                    <Text>Iniciante</Text>
                 </DefaultButton>
-                <DefaultButton bgcolor={props.level == 'intermediate' ? '#A5E8BC' : false} onPress={() => setMyLevel('intermediate')} style={{ marginBottom: 20 }} underlayColor="#CCC">
-                    <Text>Intermediário / Me viro bem</Text>
+                <DefaultButton bgcolor={props.level == 'intermediate' ? '#FFA500' : false} onPress={() => setMyLevel('intermediate')} style={{ marginBottom: 20 }} underlayColor="#CCC">
+                    <Text>Intermediário</Text>
                 </DefaultButton>
-                <DefaultButton bgcolor={props.level == 'advanced' ? '#A5E8BC' : false} onPress={() => setMyLevel('advanced')} style={{ marginBottom: 20 }} underlayColor="#CCC">
-                    <Text>Avançado / Primo do The Rock</Text>
+                <DefaultButton bgcolor={props.level == 'advanced' ? '#FFA500' : false} onPress={() => setMyLevel('advanced')} style={{ marginBottom: 20 }} underlayColor="#CCC">
+                    <Text>Avançado</Text>
                 </DefaultButton>
             </LevelArea>
 

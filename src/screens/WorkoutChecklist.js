@@ -16,7 +16,7 @@ const SafeArea = styled.SafeAreaView`
     flex:1;
     width:100%;
     align-items:center;
-    background-color:rgba(1, 59, 14, 0.9);
+    background-color:rgba(28, 28, 28, 0.9);
 `;
 
 const WorkoutHeader = styled.View`
@@ -105,7 +105,7 @@ const Page = (props) => {
                         <ExerciseItem
                             data={item}
                             index={index}
-                            checkAction={() => checkAction(item)}
+                            checkAction={() => checkAction(item, index)}
                         />
                     }
                     keyExtractor={item => item.id.toString()}

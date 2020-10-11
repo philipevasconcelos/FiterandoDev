@@ -3,27 +3,28 @@ import styled from 'styled-components/native';
 import useMuscleImage from './useMuscleImage';
 
 const ExerciseItemArea = styled.View`
-    height:50px;
+    height:60px;
     flex-direction:row;
-    margin-bottom:10px;
+    margin-bottom:15px;
 `;
 const ExerciseMuscleArea = styled.View`
     width:50px;
     height:50px;
-    background-color:#FFCC98;
-    border-radius:10px;
     justify-content:center;
     align-items:center;
 `;
 const ExerciseMuscleImage = styled.Image`
-    width:35px;
-    height:35px;
+    width:65px;
+    height:50px;
+    border-radius:5px;
+    border-color:#FFCC98;
+    border-width:1px;
 `;
 const ExerciseInfo = styled.View`
     flex:1;
     flex-direction:column;
     justify-content:center;
-    margin-left:5px;
+    margin-left:15px;
 `;
 const ExerciseName = styled.Text`
     font-size:15px;

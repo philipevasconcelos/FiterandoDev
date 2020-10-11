@@ -20,17 +20,19 @@ const MuscleScroll = styled.ScrollView`
     margin:10px;
 `;
 const MuscleGroup = styled.View`
-    width:40px;
-    height:40px;
-    background-color:#FFCC98;
+    width:60px;
+    height:60px;
     border-radius:5px;
     margin-right:5px;
     justify-content:center;
     align-items:center;
 `;
 const MuscleImage = styled.Image`
-    width:30px;
-    height:30px;
+    width:60px;
+    height:60px;
+    border-radius:5px;
+    border-color:#FFCC98;
+    border-width:1px;
 `;
 const WorkoutActions = styled.View`
     justify-content:center;
