@@ -8,31 +8,17 @@ const TabBarArea = styled.SafeAreaView`
 `;
 const TabBarItem = styled.View`
     flex:1;
-    height:65px;
+    height:75px;
     align-items:center;
 `;
 const TabRegular = styled.TouchableHighlight`
     align-items:center;
 `;
 const TabImage = styled.Image`
-    width:25px;
-    height:25px;
+    width:35px;
+    height:35px;
     margin-top:10px;
     margin-bottom:5px;
-`;
-const TabBall = styled.TouchableHighlight`
-    width:100px;
-    height:100px;
-    background-color:#3BA237;
-    border-radius:50px;
-    justify-content:center;
-    align-items:center;
-    border:5px solid #FFF;
-    margin-top:-50px;
-`;
-const TabBallImage = styled.Image`
-    width:40px;
-    height:40px;
 `;
 
 export default (props) => {
@@ -48,11 +34,6 @@ export default (props) => {
                                 <Text>{item.text}</Text>
                             </>
                         </TabRegular>
-                    }
-                    {item.type == 'big' &&
-                        <TabBall underlayColor="#00FF00" onPress={() => props.navigation.navigate(item.route)}>
-                            <TabBallImage source={item.icon} />
-                        </TabBall>
                     }
                 </TabBarItem>
             ))}

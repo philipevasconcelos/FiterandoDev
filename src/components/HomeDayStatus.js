@@ -120,7 +120,7 @@ export default (props) => {
                 {!dayOff && !isFuture && isDone &&
                     <>
                         <BalloonBigText><Strong>Parabéns</Strong>, você treinou!</BalloonBigText>
-                        <DefaultButton onPress={setUnDone} underlayColor="#4AC34E" bgcolor="#4AC34E" style={{ marginTop: 20 }}>
+                        <DefaultButton onPress={setUnDone} underlayColor="#FF8C00" bgcolor="#FF8C00" style={{ marginTop: 20 }}>
                             <ButtonText>DESMARCAR</ButtonText>
                         </DefaultButton>
                     </>
@@ -128,7 +128,7 @@ export default (props) => {
                 {!dayOff && !isFuture && !isDone && !isToday &&
                     <>
                         <BalloonBigText><Strong>Fraco!</Strong> Você falhou neste dia.</BalloonBigText>
-                        <DefaultButton onPress={setDone} underlayColor="#4AC34E" bgcolor="#4AC34E" style={{ marginTop: 20 }}>
+                        <DefaultButton onPress={setDone} underlayColor="#FF8C00" bgcolor="#FF8C00" style={{ marginTop: 20 }}>
                             <ButtonText>MARCAR COMO FEITO</ButtonText>
                         </DefaultButton>
                     </>
@@ -137,7 +137,7 @@ export default (props) => {
                     <>
                         <BalloonBigText><Strong>HOJE TEM TREINO 🚀</Strong></BalloonBigText>
                         <BalloonText>Você tem {timeLeft} para treinar</BalloonText>
-                        <DefaultButton onPress={props.goToWorkout} underlayColor="#4AC34E" bgcolor="#4AC34E" style={{ marginTop: 20 }}>
+                        <DefaultButton onPress={props.goToWorkout} underlayColor="#FF8C00" bgcolor="#FF8C00" style={{ marginTop: 20 }}>
                             <ButtonText>INICIAR TREINO</ButtonText>
                         </DefaultButton>
                     </>

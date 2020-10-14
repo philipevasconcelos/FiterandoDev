@@ -26,13 +26,20 @@ export default createBottomTabNavigator({
                     route: 'HomeStack'
                 },
                 {
-                    type: 'big',
-                    icon: require('../assets/dumbbell.png'),
+                    type: 'regular',
+                    text: 'Treinos',
+                    icon: require('../assets/treinos.png'),
                     route: 'WorkoutStack'
                 },
                 {
                     type: 'regular',
-                    text: 'Meus Treinos',
+                    text: 'Ranking',
+                    icon: require('../assets/medalha.png'),
+                    route: ''
+                },
+                {
+                    type: 'regular',
+                    text: 'Editar',
                     icon: require('../assets/myworkouts.png'),
                     route: 'MyWorkoutsStack'
                 }
