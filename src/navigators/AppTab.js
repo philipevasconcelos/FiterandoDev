@@ -4,6 +4,7 @@ import CustomTabBar from '../components/CustomTabBar';
 import HomeStack from './HomeStack';
 import WorkoutStack from './WorkoutStack';
 import MyWorkoutsStack from './MyWorkoutsStack';
+import RankingStack from './RankingStack';
 
 export default createBottomTabNavigator({
     HomeStack,
@@ -13,6 +14,7 @@ export default createBottomTabNavigator({
             tabBarVisible: false
         }
     },
+    RankingStack,
     MyWorkoutsStack
 }, {
     tabBarComponent: (props) => (
@@ -35,7 +37,7 @@ export default createBottomTabNavigator({
                     type: 'regular',
                     text: 'Ranking',
                     icon: require('../assets/medalha.png'),
-                    route: ''
+                    route: 'RankingStack'
                 },
                 {
                     type: 'regular',
