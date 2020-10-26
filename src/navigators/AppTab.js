@@ -5,6 +5,9 @@ import HomeStack from './HomeStack';
 import WorkoutStack from './WorkoutStack';
 import MyWorkoutsStack from './MyWorkoutsStack';
 import RankingStack from './RankingStack';
+import LojaStack from './LojaStack';
+console.disableYellowBox = true;
+
 
 export default createBottomTabNavigator({
     HomeStack,
@@ -15,6 +18,7 @@ export default createBottomTabNavigator({
         }
     },
     RankingStack,
+    LojaStack,
     MyWorkoutsStack
 }, {
     tabBarComponent: (props) => (
@@ -38,6 +42,12 @@ export default createBottomTabNavigator({
                     text: 'Ranking',
                     icon: require('../assets/medalha.png'),
                     route: 'RankingStack'
+                },
+                {
+                    type: 'regular',
+                    text: 'Loja',
+                    icon: require('../assets/loja.png'),
+                    route: 'Loja'
                 },
                 {
                     type: 'regular',
