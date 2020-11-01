@@ -11,5 +11,5 @@ export default createStackNavigator({
     StarterName,
     StarterDias,
     StarterNivel,
-    StarterRecommendations
+    StarterRecommendations,
 });

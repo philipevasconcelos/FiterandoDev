@@ -56,7 +56,7 @@ Page.navigationOptions = ({ navigation }) => {
     }
 
     const btnAction = () => {
-        navigation.navigate('EditWorkout');
+        navigation.navigate('EditRecommendations');
     }
 
     return {

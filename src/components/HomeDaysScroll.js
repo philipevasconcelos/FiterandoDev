@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Text } from 'react-native';
 import { Dimensions } from 'react-native';
 import styled from 'styled-components/native';
 
@@ -27,7 +26,7 @@ let dayW = Math.round(screenWidth / 9);
 let offsetW = Math.round((screenWidth - dayW) / 2);
 
 const Day = ({ day, month, dailyProgress, workoutDays, onPress }) => {
-    let bgColor = '#F4F4F4';
+    let bgColor = '#DCDCDC';
     let opacity = 1;
 
     let today = new Date();

@@ -5,11 +5,12 @@
     "exercises": [
       {
         "id": 1,
-        "name": "Supino Inclinado",
+        "name": "Agachamento",
         "muscle": "chest",
         "sets": "3",
         "reps": "10",
-        "load": "20"
+        "load": "0",
+        "points": "10"
       }
     ]
   },
@@ -19,11 +20,21 @@
     "exercises": [
       {
         "id": 1,
-        "name": "Supino Inclinado",
+        "name": "Agachamento",
         "muscle": "chest",
         "sets": "3",
         "reps": "10",
-        "load": "20"
+        "load": "0",
+        "points": "10"
+      },
+      {
+        "id": 2,
+        "name": "Agachamento com Salto",
+        "muscle": "gluteos",
+        "sets": "3",
+        "reps": "10",
+        "load": "0",
+        "points": "10"
       }
     ]
   },
@@ -33,19 +44,21 @@
     "exercises": [
       {
         "id": 1,
-        "name": "Supino Inclinado",
-        "muscle": "chest",
+        "name": "Abdominal",
+        "muscle": "abs",
         "sets": "3",
         "reps": "10",
-        "load": "20"
+        "load": "0",
+        "points": "10"
       },
       {
         "id": 2,
-        "name": "Ex 2",
+        "name": "Biceps",
         "muscle": "biceps",
         "sets": "2",
         "reps": "12",
-        "load": "10"
+        "load": "10",
+        "points": "10"
       }
     ]
   }

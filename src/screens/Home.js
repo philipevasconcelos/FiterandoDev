@@ -76,11 +76,11 @@ const Page = (props) => {
                     <LegendText>Treino perdido</LegendText>
                 </LegendItem>
                 <LegendItem>
-                    <LegendBox style={{ backgroundColor: '#F4F4F4', opacity: 0.2 }}></LegendBox>
+                    <LegendBox style={{ backgroundColor: '#F4F4F4' }}></LegendBox>
                     <LegendText>Dia de descanso</LegendText>
                 </LegendItem>
                 <LegendItem>
-                    <LegendBox style={{ backgroundColor: '#F4F4F4' }}></LegendBox>
+                    <LegendBox style={{ backgroundColor: '#DCDCDC' }}></LegendBox>
                     <LegendText>Dia futuro</LegendText>
                 </LegendItem>
             </Legend>

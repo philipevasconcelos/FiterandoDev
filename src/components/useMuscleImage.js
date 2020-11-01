@@ -15,7 +15,7 @@ export default (muscle) => {
             muscleImage = require('../assets/muscles/chest.png');
             break;
         case 'gluteos':
-            muscleImage = require('../assets/muscles/gluteos.png');
+            muscleImage = require('../assets/muscles/salto.png');
             break;
         case 'legs':
             muscleImage = require('../assets/muscles/legs.png');
