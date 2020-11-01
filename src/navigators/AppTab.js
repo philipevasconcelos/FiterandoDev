@@ -49,17 +49,13 @@ export default createBottomTabNavigator({
                     type: 'regular',
                     text: 'Loja',
                     icon: require('../assets/loja.png'),
-<<<<<<< HEAD
                     route: 'LojaStack'
-=======
-                    route: 'Loja'
->>>>>>> 0f4faed47b0d682d17f825b84f3e6d1656449c24
                 },
                 {
                     type: 'regular',
                     text: 'Editar',
                     icon: require('../assets/myworkouts.png'),
-                    route: 'MyWorkoutsStack',
+                    route: 'MyWorkoutsStack'
                 }
             ]}
         />
