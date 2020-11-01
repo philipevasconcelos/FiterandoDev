@@ -6,6 +6,9 @@ import WorkoutStack from './WorkoutStack';
 import MyWorkoutsStack from './MyWorkoutsStack';
 import LojaStack from './LojaStack';
 import RankingStack from './RankingStack';
+import LojaStack from './LojaStack';
+console.disableYellowBox = true;
+
 
 
 export default createBottomTabNavigator({
@@ -46,7 +49,11 @@ export default createBottomTabNavigator({
                     type: 'regular',
                     text: 'Loja',
                     icon: require('../assets/loja.png'),
+<<<<<<< HEAD
                     route: 'LojaStack'
+=======
+                    route: 'Loja'
+>>>>>>> 0f4faed47b0d682d17f825b84f3e6d1656449c24
                 },
                 {
                     type: 'regular',
