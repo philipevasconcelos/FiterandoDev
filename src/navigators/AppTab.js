@@ -4,10 +4,9 @@ import CustomTabBar from '../components/CustomTabBar';
 import HomeStack from './HomeStack';
 import WorkoutStack from './WorkoutStack';
 import MyWorkoutsStack from './MyWorkoutsStack';
-import LojaStack from './LojaStack';
 import RankingStack from './RankingStack';
 import LojaStack from './LojaStack';
-console.disableYellowBox = true;
+
 
 
 
