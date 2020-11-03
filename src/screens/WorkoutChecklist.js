@@ -67,7 +67,7 @@ const Page = (props) => {
     const checkWorkout = () => {
         if (exercises.every(i => i.done)) {
 
-            alert("PARABÉNS! Você Finalizou!");
+            alert("PARABÉNS! Você finalizou e ganhou 10 pontos");
 
             let today = new Date();
             let thisYear = today.getFullYear();
