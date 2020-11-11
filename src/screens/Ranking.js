@@ -32,8 +32,9 @@ const NivelItemText = styled.Text`
 `;
 const PontosItemText = styled.Text`
     font-size:16px;
-
 `;
+
+const Text = styled.Text``;
 
 const Page = (props) => {
     return (
@@ -45,8 +46,10 @@ const Page = (props) => {
             </RankingHeader>
             <RankingHeader>
                 <NameItemText>{props.name}</NameItemText>
-                <NivelItemText>{props.level} </NivelItemText>
-                <PontosItemText>0</PontosItemText>
+                <NivelItemText>{props.level == 'beginner' ? <Text>Iniciante</Text> : true} </NivelItemText>
+                <NivelItemText>{props.level == 'intermediate' ? <Text>Intermediario</Text> : true} </NivelItemText>
+                <NivelItemText>{props.level == 'advanced' ? <Text>Avançado</Text> : true} </NivelItemText>
+                <PontosItemText>10</PontosItemText>
             </RankingHeader>
         </Container>
     );
