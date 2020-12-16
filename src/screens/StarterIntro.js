@@ -17,37 +17,37 @@ const SafeArea = styled.SafeAreaView`
 `;
 
 const WelcomeName = styled.Text`
-    font-size:35px;
+    font-size:40px;
     font-weight: bold;
     color:#FFF;
-    margin-left:10%;
-    height:60px;
+    margin-left:5%;
+    height:80px;
 `;
 
 const WelcomeText = styled.Text`
-    font-size:26px;
+    font-size:25px;
     font-weight: bold;
     color:#FFF;
-    margin-left:6%;
+    margin-left:5%;
     align-items:center;
-    height:70px;
+    height:50px;
 `;
 
 const WelcomeInfo = styled.Text`
-    font-size:19px;
+    font-size:22px;
     font-weight: bold;
     color:#FFF;
     width:100%;
-    margin-left:10%;
+    margin-left:1%;
 `;
 
 const WelcomeInfoCont = styled.Text`
-    font-size:19px;
+    font-size:22px;
     font-weight: bold;
     color:#FFF;
     width:100%;
     height:70px;
-    margin-left:14%;
+    margin-left:4%;
 `;
 
 const BeginConfigArea = styled.View`
@@ -69,7 +69,7 @@ const Page = (props) => {
         <Container source={require('../assets/fitness.jpg')}>
             <SafeArea>
                 <BeginConfigArea>
-                    <WelcomeName>▶Fiterando</WelcomeName>
+                    <WelcomeName>▶️Fiterando</WelcomeName>
                     <WelcomeText>Bem-vindo ao time!</WelcomeText>
                     <WelcomeInfo>Viver uma vida saudável</WelcomeInfo>
                     <WelcomeInfoCont>nunca foi tão divertido.</WelcomeInfoCont>
